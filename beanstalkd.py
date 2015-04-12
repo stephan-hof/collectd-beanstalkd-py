@@ -3,6 +3,11 @@
 #
 
 import collectd
+
+# beanstalkc needs yaml to work correctly.
+# This import ensures a 'fail early' behaviour.
+import yaml
+
 from beanstalkc import Connection
 
 class Beanstalk(object):

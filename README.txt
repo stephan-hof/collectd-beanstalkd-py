@@ -9,3 +9,7 @@
         tubes_prefix "inventory default"
     </Module>
 </Plugin>
+
+You need
+* https://pypi.python.org/pypi/beanstalkc
+* https://pypi.python.org/pypi/PyYAML
